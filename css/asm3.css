@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0 5px 0 5px;
+    
+}
+.boxinside1 form > input[type = "text"]{
+    height: 35px;
+    margin-bottom: 10px;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    border: none;
+}
+.header-top{
+    background-color: rgb(0, 140, 255);
+}
+.logo{
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+.navbar  a{
+    color: white;}
+.navbar h2{
+    padding: 10px 0px 10px 0px;
+    display: block;
+    clear: both;
+}
+
+.header-menu{
+    width: 100%;
+  
+    background-color: mediumblue;
+	border: none;
+    margin:0px;
+    text-align: center;
+    align-items: center;
+}
+.header-menu li{
+    padding: 0px 5px;
+    list-style: none;
+    float: left;
+}
+
+
+.header-menu a{
+    padding: 5px;
+    color: white;
+}
+.header-menu a:hover{
+	text-decoration: none;
+	color: orangered;
+}
+.fa-search{
+    color: white;
+}
+
+@media (max-width: 575px) {
+
+    .header-menu{
+        background-color: white;
+        justify-content: center;
+        padding: 8 100px;
+    }
+    .navbar  a{
+        color: blue;}
+    .fa-search{
+        color:black;
+        }
+    .bus2{height: 55vh;}
+    }
+ 
+ 
+
+@media (max-width: 991px) {
+
+
+    .nav-item{
+        font-size: 85%;
+    }
+    .header-menu > h2 >a{
+        font-size: 85%;
+        }
+    html { font-size: 14px };
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .box > input[type = "text"]{
+            width: 100%; 
+         }
+    .block{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .box10 form{
+        width: 100%;
+    }
+    #business-text{
+        left: 15px;
+        font-size: 70%;
+    }
+
+}
+@media (min-width: 992px) {
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box > input[type = "text"]{
+        width: 30%; 
+     }
+    .block{
+        position:relative;
+        right: -25%;
+        transform: translateX(-40px);
+    
+    }
+    .boxinside1 form input[type="button"]{
+        float: right;
+    }
+    html{
+        font-size: 9px;
+    }
+    #business-text{
+        left: -2px;
+    }
+
+    
+}
+#img2{
+    height: 100%;
+}
+.boundcontainer{
+    justify-content: center;
+}
+
+#aboutus, #news, #contact{
+        
+        clear: both;
+        position: relative;
+        overflow: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        
+    }
+.boxinside{
+    margin-left: 5px;
+    margin-right: 10px;
+    
+    border:0.3px solid;
+    border-color: lightgray;
+}
+.boxinside1{
+    margin-left: 5px;
+    margin-right:15px;
+    
+}
+.boxinside1 form input[type="button"]{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 217, 0);
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+#business{
+    margin-top: 50px;
+    color: white;
+    clear: both;
+    position: relative;
+    overflow: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#img1 #img2{
+    margin: 0;
+}
+.bus1 , .bus2{
+    padding: 0px;
+    clear: both;
+}
+
+#business-text{
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    padding-left: 30px;
+}
+
+#business-text > .tit:before{
+    color: white;
+}
+
+#icon1 {
+    position: absolute;
+    top: 25%;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+#icon2{
+    position: absolute;
+    top: 70%;
+    left: -15px;
+    width: 30px;
+    -moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.box0, .box1,.box2, .box3,.box4, .box5, .box6{
+
+    padding: 0%;
+}
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+#footer-up{
+    padding: 30px 0px;
+    clear: both;
+    border-bottom: 0.3px solid;
+    border-bottom-color: white;
+
+ }
+#footer-down{
+    text-align: center;
+    padding: 5px 0px;
+}
+.box7, .box8, .box9, .box10{
+    padding-left: 0;
+}
+.tit{
+     position: relative;
+     padding-left: 25px;
+ }
+.tit:before{
+     content: "\f86c";
+     font-family: "Font Awesome 5 Pro";
+     color: blue;
+     position: absolute;
+     left: 0px;
+     bottom: -3px;
+ }
+ .readmore{
+    position: relative;
+    padding-right: 10px;
+    display: block;
+    width: 90px;
+ }
+ .readmore:after{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    right: 0px;
+ }
+ .box8 ul,.box9 ul{
+     margin-left: 5px;
+ }
+ .bottom-menu{
+    position: relative;
+    padding-left: 10px;
+
+    list-style-type: none;
+ }
+ .bottom-menu:before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Pro";
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px; 
+    font-size: 80%;
+ }
+
+ .box10 form{
+    border-bottom: 0.3px solid;
+    border-bottom-color: white;
+    margin-left: 5px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+
+ }
+ .box10 form input[type = "text"]{
+     background-color: black;
+     border: none;
+     color: white;
+ }
+ .box10 form input[type = "button"]{
+     float: right;
+ }
+
+
+
