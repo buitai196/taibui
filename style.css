@@ -111,14 +111,14 @@ justify-content: space-around;
         border-color: #007bff;
       } 
     .thumbnail_caption{
-        margin-left:30px;
+        margin-left:55px;
       }
     .căn-chỉnh-trái{
-        padding-left:30px;
+        padding-left:55px;
         padding-right:30px;
     }
     .căn-chỉnh{
-        left:10px;
+        left:30px;
     }
     .căn-chỉnh-phải{
         left:0px;
@@ -140,29 +140,29 @@ justify-content: space-around;
 }
 @media (min-width: 1200px){
     .căn-chỉnh-trái{
-        padding-left:30px;
+        padding-left:40px;
         padding-right:0px;
     }
     .thumbnail_caption{
-        margin-left:30px;
+        margin-left:40px;
       }
     .căn-chỉnh{
         left:0px;
     }
     .căn-chỉnh-phải{
-        margin-left:85px;
+        margin-left:40px;
     }
     .company-name{
-        margin-left:-10px;
+        margin-left:-20px;
     }
     .send-message{
-        margin-left:365px;
+        margin-left:345px;
         width:100%;
         text-align: left;
         color: #f8f9fa ;
     }
     .contact-info{
-        margin-left:30px!important;
+        margin-left:40px!important;
     }
     #submit2 {
         left: 70%;
