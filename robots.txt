@@ -1,9 +1,0 @@
-# Group 1
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-Sitemap: https://buitai196.github.io/taibui/sitemap.xml
-
-# Group 2
-User-agent: *
-Allow: /
