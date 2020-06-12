@@ -14,3 +14,4 @@ Disallow: /nogooglebot/\
 User-agent: *\
 Allow: /\
 }
+Sitemap: https://buitai196.github.io/taibui/sitemap.xml
