@@ -82,6 +82,7 @@ justify-content: space-around;
     
     
 }
+/*màn hình cho laptop từ 992px trở lên*/
 @media (min-width: 992px) {
     #business-text{
         left: -2px;
@@ -138,6 +139,7 @@ justify-content: space-around;
     
 
 }
+/*màn hình cho laptop từ 1200px trở lên*/
 @media (min-width: 1200px){
     .căn-chỉnh-trái{
         padding-left:40px;
@@ -171,7 +173,7 @@ justify-content: space-around;
     
 
 }
-
+/*màn hình cho điện thoại*/
 @media (max-width: 575px) {
     .bus2{
     height: 55vh;
@@ -244,6 +246,7 @@ justify-content: space-around;
     
     
 }   
+/*màn hình cho tablet*/
 @media (min-width:768px) and (max-width:992px) {
     #submit2 {
         left: 89%;
